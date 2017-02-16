@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Install included files">
+      <UniqueIdentifier>{8a00106b-7460-4c04-be33-d2caf40203cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TS3 Headers">
+      <UniqueIdentifier>{d8e5e889-e36c-40f9-87e5-3b98728a33f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{83d990ba-966f-4f1e-b7bf-04d9c2416a9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="google.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="lightalloy.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="nowplaying_plugin.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="vlc.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="winamp.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="spotify.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="spider.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="wmp.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="google.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="lightalloy.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="nowplaying_plugin.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="shared.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="vlc.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="winamp.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TS3 Includes\clientlib_publicdefinitions.h">
+      <Filter>TS3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TS3 Includes\plugin_definitions.h">
+      <Filter>TS3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TS3 Includes\plugin_events.h">
+      <Filter>TS3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TS3 Includes\public_definitions.h">
+      <Filter>TS3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TS3 Includes\public_errors.h">
+      <Filter>TS3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TS3 Includes\public_errors_rare.h">
+      <Filter>TS3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TS3 Includes\public_rare_definitions.h">
+      <Filter>TS3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TS3 Includes\ts3_functions.h">
+      <Filter>TS3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="spotify.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="spider.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="wmp.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\install\changelog.txt">
+      <Filter>Install included files</Filter>
+    </None>
+    <None Include="..\oneclick\package.ini">
+      <Filter>Install included files</Filter>
+    </None>
+    <None Include="..\install\readme.txt">
+      <Filter>Install included files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
