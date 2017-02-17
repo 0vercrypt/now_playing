@@ -37,10 +37,7 @@ int spotify (struct TrackInfo *info, struct TS3Functions ts3Functions) {
 		
 
 		//printf("\tiStringLen = %d\n", iStringLen);
-		//if (strstr (cWindowText, " - ") != 0 && iStringLen >= 1) { 
-
-		if (strstr (cWindowText, " - ") != 0 && iStringLen >= 10) { 
-			int iFixOutput = 0;
+		if (iStringLen >= 1) {
 			iFound = 1;
 
 			//memcpy (cWindowText, cWindowText, (iStringLen)); /* remove "Spotify - " */
