@@ -40,15 +40,6 @@ int spotify (struct TrackInfo *info, struct TS3Functions ts3Functions) {
 		if (iStringLen >= 1) {
 			iFound = 1;
 
-			//memcpy (cWindowText, cWindowText, (iStringLen)); /* remove "Spotify - " */
-			//printf("\tcWindowText before: \"%s\"\n", cWindowText);
-			for (int iFixOutput = 0; iFixOutput < iStringLen - 10; iFixOutput++) {
-				cWindowText[iFixOutput] = cWindowText[iFixOutput + 10]; 
-				//iFixOutput++;
-			} 
-			//printf("\tcWindowText after:  \"%s\"\n", cWindowText);
-		
-			iStringLen -= 10; /* 10 = length of "Spotify - " */
 			cWindowText[iStringLen] = 0;
 			strcpy_s (info->chTitle, sizeof (info->chTitle), cWindowText);
 			info->chProgramm = "Spotify";
