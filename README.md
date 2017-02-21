@@ -8,3 +8,6 @@ This is the original Now Playing Teamspeak 3 plugin by Screech, updated to the c
 
 # Original:
 http://screech.me/ts3/plugins/now_playing.html
+
+# Current release:
+https://github.com/teamspeak-plugins/now_playing/releases/tag/0.15.4030
