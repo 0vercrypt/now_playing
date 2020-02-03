@@ -1,5 +1,5 @@
-# Now Playing Plugin for Teamspeak 3 (API Version 22)
-This is the original Now Playing Teamspeak 3 plugin by Screech, updated to the current API version 22 by Leibi (https://teamspeak-plugins.org).
+# Now Playing Plugin for Teamspeak 3 (API Version 23)
+This is the original Now Playing Teamspeak 3 plugin by Screech, updated to API version 22 by Leibi (https://teamspeak-plugins.org), and updated to API version 23 by bobflem.
 
 # Features:
 - Show your current track in the Client Info pane if they also have the plugin running.
